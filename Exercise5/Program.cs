@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace Exercise5
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
-}
+	public class QNode
+	{
+		public int data;
+		public QNode next;
+		public QNode(int value)
+		{
+			this.data = value;
+			this.next = null;
+		}
+	}
+	
