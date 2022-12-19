@@ -16,4 +16,9 @@ namespace Exercise5
 			this.next = null;
 		}
 	}
-	
+	public class MyQueue
+	{
+		public QNode dianitasya;
+		public QNode masta;
+		public int count;
+		
