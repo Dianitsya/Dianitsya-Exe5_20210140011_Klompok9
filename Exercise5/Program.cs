@@ -21,4 +21,10 @@ namespace Exercise5
 		public QNode dianitasya;
 		public QNode masta;
 		public int count;
+		public MyQueue()
+		{
+			this.dianitasya = null;
+			this.masta = null;
+			this.count = 0;
+		}
 		
