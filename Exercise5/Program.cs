@@ -27,4 +27,8 @@ namespace Exercise5
 			this.masta = null;
 			this.count = 0;
 		}
+		public int size()
+		{
+			return this.count;
+		}
 		
