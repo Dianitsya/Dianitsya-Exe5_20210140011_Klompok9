@@ -31,4 +31,9 @@ namespace Exercise5
 		{
 			return this.count;
 		}
-		
+		public bool isEmpty()
+		{
+			return this.count == 0;
+		}
+		// Add new node of queue
+	
